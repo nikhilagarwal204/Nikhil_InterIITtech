@@ -12,7 +12,8 @@ order of publishing time.
 
 Example:
 
-<img width="320" alt="Screenshot 2022-01-27 at 3 49 38 AM" src="https://user-images.githubusercontent.com/45812764/151256626-112cb60f-f101-494f-83ca-4b10f11161af.png">&nbsp;&nbsp;&nbsp;<img width="320" alt="Screenshot 2022-01-27 at 3 47 16 AM" src="https://user-images.githubusercontent.com/45812764/151256397-febd596f-199f-4160-a570-345c0e6b949e.png">&nbsp;&nbsp;&nbsp;<img width="320" alt="Screenshot 2022-01-27 at 3 48 58 AM" src="https://user-images.githubusercontent.com/45812764/151256531-b4ee64c4-6b02-4b89-9216-f2ba75095d42.png">&nbsp;&nbsp;&nbsp;<img width="320" alt="Screenshot 2022-01-27 at 4 04 51 AM" src="https://user-images.githubusercontent.com/45812764/151258487-54698d49-b239-4bd8-8dc9-53cdadfa2a47.png">
+<img width="400" alt="Screenshot 2022-02-20 at 6 56 30 AM" src="https://user-images.githubusercontent.com/45812764/154824837-91ff26a0-5f5a-4dc8-acfc-4d9e78e53d4a.png"><img width="400" alt="Screenshot 2022-02-20 at 6 57 01 AM" src="https://user-images.githubusercontent.com/45812764/154824845-ccacb1b1-b435-4a1f-af1d-00b7967cfe02.png"><img width="400" alt="Screenshot 2022-02-20 at 6 59 10 AM" src="https://user-images.githubusercontent.com/45812764/154824848-bb797f87-6f83-4ef8-9109-190367332551.png"><img width="400" alt="Screenshot 2022-02-20 at 7 01 34 AM" src="https://user-images.githubusercontent.com/45812764/154824888-5f88fdfd-6e44-499f-b04d-8842d780705e.png">
+
 
 
 ## Installation and Setup Instructions
@@ -25,9 +26,9 @@ Clone this whole repository. You will need node and npm installed globally on yo
 <pre><code>npm start</code></pre>
 <pre>Open this URL - http://localhost:5050/</pre>
 
-A glimpse of the MongoDB backend database having the collection named "vids":
+A glimpse of the MongoDB backend database _utube-dance_ having the collection named _vids_:
 
-<img width="263" alt="Screenshot 2021-11-18 at 3 38 56 AM" src="https://user-images.githubusercontent.com/45812764/142290463-f53de80e-19e5-4d96-a699-2fc807658dc3.png">
+<img width="981" alt="Screenshot 2022-02-20 at 6 48 16 AM" src="https://user-images.githubusercontent.com/45812764/154824700-362da2a3-0ebe-4b74-ae23-d72737ef1fb3.png">
 
 To use your own MongoDB, you have to just substitute the DATABASE varibale with your MongoDB URI inside the _/server/config.env_ file. 
 
