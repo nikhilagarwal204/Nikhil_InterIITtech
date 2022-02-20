@@ -1,4 +1,4 @@
-# Website Hackathon TSG WebDevBeasts
+# Inter IIT Contingent Central Development Team Selection Task
   
 ## The Problem
 
@@ -10,10 +10,15 @@ order of publishing time.
 
 ## The Solution
 
-Example:
+#### Glimpse:
 
 <img width="400" alt="Screenshot 2022-02-20 at 6 56 30 AM" src="https://user-images.githubusercontent.com/45812764/154824837-91ff26a0-5f5a-4dc8-acfc-4d9e78e53d4a.png"><img width="400" alt="Screenshot 2022-02-20 at 6 57 01 AM" src="https://user-images.githubusercontent.com/45812764/154824845-ccacb1b1-b435-4a1f-af1d-00b7967cfe02.png"><img width="400" alt="Screenshot 2022-02-20 at 6 59 10 AM" src="https://user-images.githubusercontent.com/45812764/154824848-bb797f87-6f83-4ef8-9109-190367332551.png"><img width="400" alt="Screenshot 2022-02-20 at 7 01 34 AM" src="https://user-images.githubusercontent.com/45812764/154824888-5f88fdfd-6e44-499f-b04d-8842d780705e.png">
 
+#### Deployed App:
+
+[Link to the Frontend Client](https://nikhil-dance-gallery.vercel.app/)
+
+[Link to the Backend Server APIs](https://dance-gallery-backend.herokuapp.com/)
 
 
 ## Installation and Setup Instructions
@@ -32,9 +37,28 @@ A glimpse of the MongoDB backend database _utube-dance_ having the collection na
 
 To use your own MongoDB, you have to just substitute the DATABASE varibale with your MongoDB URI inside the _/server/config.env_ file. 
 
+To use your own YouTube API, you have to just substitute the YOUTUBE_TOKEN varibale with your generated token inside the _/server/config.env_ file. 
+
 
 ### To start Frontend Client:
 <pre><code>cd client</code></pre>
 <pre><code>npm install</code></pre>
 <pre><code>npm start</code></pre>
 <pre>Open this URL - http://localhost:3000/</pre>
+
+
+## Acknowledgments
+
+* [Create React App](https://create-react-app.dev/)
+* [React Bootstrap](https://react-bootstrap.github.io/)
+* [react-player](https://www.npmjs.com/package/react-player)
+* [axios](https://www.npmjs.com/package/axios)
+* [Node.js](https://nodejs.org/en/)
+* [Express](https://expressjs.com/)
+* [CORS](https://www.npmjs.com/package/cors)
+* [dotenv](https://www.npmjs.com/package/dotenv)
+* [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+* [mongoose](https://mongoosejs.com/)
+* [googleapis](https://www.npmjs.com/package/googleapis)
+* [Heroku](https://dashboard.heroku.com/)
+* [Vercel](https://vercel.com/dashboard)
